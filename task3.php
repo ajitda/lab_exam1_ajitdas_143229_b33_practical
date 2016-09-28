@@ -4,6 +4,7 @@ if(!empty($_POST['name'])){
 }else{
     echo 'You didn’t enter your name';
 }
+
 echo "<br>";
 if(!empty($_POST['roll'])){
     echo "students roll : " .$_POST['roll'];
