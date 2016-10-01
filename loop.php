@@ -40,21 +40,19 @@ for($i=1;$i<=10;$i++){
 
 echo '<br>';
 
-for($m=10;$m==1;$m--){
-    echo "hello";
-}
-echo '<br>';
+
+//making diamond
 $space=1;
-$star="space";
+
 for($i=1;$i<=10;$i++){
 
     for($k=10-$i;$k>=0;--$k){
         echo "&nbsp;";
     }
     for($j=1;$j<=$i; $j++){
-        echo '*&nbsp;';
+
+        echo '*&nbsp;';}
         $space++;
-    }
     echo '<br>';
 }
 
